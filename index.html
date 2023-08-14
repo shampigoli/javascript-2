@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Javascript 2</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="mainnav">
+                <div class="logo">
+                    Photo<span>pi</span>X
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    
+                    <a href="#about">About</a>
+                    
+                    <a href="#gallery">Gallery</a>
+                    
+                    <a href="#">Contact</a>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-search"></i>
+                    <a href="#">Login</a>
+                </div>
+            </div>
+            
+        </nav>
+        <section class="h-text">
+            <i class="fa fa-camera" id="camera"></i>
+            <h1 data-aos="fade-up">Capturing the moments that captivate your heart.</h1>
+            <input type="text" name="" placeholder="search here....">
+            <button >
+                <i class="fa fa-search"></i></button>
+        </section>
+    </header>
+
+
+    <!-- filter gallery -->
+    <section class="filter-gallery" id="gallery">
+        <div class="portfolio-menu">
+            <ul>
+                <li class="active" data-filter="*">All</li>
+                <li  data-filter=".nature">Nature</li>
+                <li  data-filter=".fashion">Fashion</li>
+                <li  data-filter=".wedding">Wedding</li>
+            </ul>
+
+        </div>
+        <div class="portfolio-item" >
+            <div class="item nature" data-aos="flip-left">
+                <img src="images/p1.jpg" alt="" width="100" height="100" data-aos-delay="100">
+            </div>
+            
+            <div class="item fashion" data-aos="flip-left">
+                <img src="images/p2.jpg" alt="" width="100" height="100" data-aos-delay="200">
+            </div>
+            
+            <div class="item wedding" data-aos="flip-left" data-aos-offset="200" data-aos-delay="300">
+                <img src="images/p3.jpg" alt="" width="100" height="100">
+            </div>
+            
+            <div class="item nature" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="100">
+                <img src="images/p4.jpg" alt="" width="100" height="100">
+            </div>
+            
+            <div class="item fashion" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200">
+                <img src="images/p5.jpg" alt="" width="100" height="100">
+            </div>
+            
+            <div class="item wedding" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300">
+                <img src="images/p6.jpg" alt="" width="100" height="100">
+            </div>
+            
+            
+            <div class="item nature" data-aos="flip-left" data-aos-offset="200" data-aos-delay="100">
+                <img src="images/p7.jpg" alt="" width="100" height="100">
+            </div>
+            
+            
+            <div class="item fashion" data-aos="flip-left" data-aos-offset="200" data-aos-delay="200">
+                <img src="images/p8.jpg" alt="" width="100" height="100">
+            </div> 
+
+            <div class="item wedding" data-aos="flip-left" data-aos-offset="200" data-aos-delay="300">
+                <img src="images/p9.jpg" alt="" width="100" height="100">
+            </div>
+            
+            
+        </div>
+    </section>
+
+<!-- member section -->
+    <section class="member" id="about" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="100" >
+        <div class="member-info">
+            <h1>Our <span>Informations</span></h1>
+            <p>What our member says?
+            </p>
+        </div>
+        <div class="member-card">
+            <img src="/images/member.png" alt="">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, aspernatur dolorum provident explicabo id distinctio delectus quisquam, vitae ducimus sit, voluptas possimus. Ex voluptas quae doloribus, id laudantium nam officiis.</p>
+            <h2>* Maria Sharapova</h2>
+            <img src="/images/icon1.png" alt="" width="100">
+            
+            <img src="/images/icon2.png" alt="" width="100">
+            
+            <img src="/images/icon3.png" alt="" width="100">
+            <img src="images/icon4.png" alt="" width="100">
+        </div>
+        <div class="m-images" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300">
+            <img src="images/s1.jpg" alt="">
+            
+            <img src="images/s2.jpg" alt="">
+            
+            <img src="images/s3.jpg" alt="">
+            
+            <img src="images/s4.jpg" alt="">
+            
+            <img src="images/s5.jpg" alt="">
+            
+            <img src="images/s6.jpg" alt="">
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="newsletter">
+            <div>
+                <h2>Subscribe our newsletter</h2>
+                <p>We're a team of non-cyincs who truly care of our work.</p>
+               
+            </div>
+            <div class="ntext" data-aos="zoom-up-right" data-aos-offset="200" data-aos-delay="100">
+                <label for="">
+                    <input type="text" placeholder="Enter your email">
+                    
+                <button>Subscribe</button>
+                </label>
+            </div>
+        </div>
+        <div class="f-content" data-aos="zoom-up-right" data-aos-offset="200" data-aos-delay="200">
+            <div>
+            <h1>Information</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+            
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            
+            <i class="fab fa-pinterest" aria-hidden="true"></i>
+
+            </div>
+            <div>
+                <h1>Useful links</h1>
+                <p>About Us</p>
+                <p>Gallery</p>
+                <p>Blogs</p>
+                <p>Posts</p>
+                <p>Pricing Plans</p>
+            </div>
+            <div>
+                <h1>Details</h1>
+                <p>photographers</p>
+                <p>Gallery</p>
+                <p>Blogs</p>
+                <p>Posts</p>
+                <p>Pricing Plans</p>
+            </div>
+            <div>
+                <h1>Help &  <br> support</h1>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Techinal Support</p>
+                <p>Customer Care</p>
+            </div>
+       
+        </div>
+       </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script class="text/javascript">
+           $('.portfolio-item').isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+      });
+
+      $('.portfolio-menu ul li ').click(function(){
+        $('.portfolio-menu ul li ').removeClass('active');
+        $(this).addClass('active');
+
+
+        var selector = $(this).attr('data-filter');
+        $('.portfolio-item').isotope({
+            filter:selector
+        });
+        return false;
+      });
+    </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+ 
+
+</body>
+</html>
